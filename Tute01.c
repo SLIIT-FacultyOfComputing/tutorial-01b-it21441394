@@ -5,7 +5,18 @@
 #include <stdio.h>
 
 int main() {
-  printf("Enter Number 1");
+  int num1,num2;
+  int total; 
+  float avg; 
+  printf("Enter Number 1 :");
+  scanf("%d",&num1);
+  printf("Enter number 2 :");
+  scanf("%d",&num2);
+  total=num1+num2;
+  avg=(float)total/2;
+  printf("Total = %d\n",total);
+  printf("average = %.2f\n",avg);
+
   
   return 0;
 }
