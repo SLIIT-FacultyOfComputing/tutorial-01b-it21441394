@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 int main() {
+  printf("Enter Number 1");
   
   return 0;
 }
